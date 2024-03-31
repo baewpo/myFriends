@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Friend Information</title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<div class="container">
+  <h2>My Friends</h2>
+  <p>Number of friends: <span id="friendCount"></span></p>
+  <button onclick="resetPage()">Reset</button>
+  <button onclick="resetAndGenerateNewFriends()">Random</button>
+  <br><br>
+  <div id="friendsInput"></div>
+  <div id="results"></div>
+  <br>
+  <button onclick="calculateTotalAge()">Calculate Total Age</button>
+  <button onclick="calculateAverageAge()">Calculate Average Age</button>
+  <button onclick="findYoungestFriend()">Find Youngest Friend</button>
+  <button onclick="findOldestFriend()">Find Oldest Friend</button>
+  
+</div>
+
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
